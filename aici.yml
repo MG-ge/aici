@@ -2,7 +2,7 @@ $schema: ./schemas/aici.schema.json
 version: 1
 tests:
   - name: support-response-schema
-    mockOutputFile: examples/basic/output.json
+    mockOutputFile: examples/failing/output.json
     expect:
       contains:
         - approved
