@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Updated development dependencies to current registry versions as of 2026-05-20.
+- Clarified that Dependabot is temporarily disabled while GitHub Actions quota is constrained.
+
 ## 0.1.9 - 2026-05-19
 
 - Printed the exact bundled Action CLI path during GitHub Action runs so logs prove release tags use `action-dist/cli.js`.

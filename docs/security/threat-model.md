@@ -140,7 +140,7 @@ Existing mitigations and controls:
 - Action release tags run the bundled `action-dist/cli.js`, and `install`/`build` default to false.
 - Artifact upload and PR comments are opt-in. Job summaries remain default for usability.
 - Redaction covers configured values, provider env secret values, bearer tokens, API-key-like strings, model output, check messages, tool-call arguments, and raw tool-call payloads.
-- CI includes `npm run verify`, npm audit, dependency review, and CodeQL workflows when GitHub Actions quota is available. Dependabot version-update PRs are currently paused with `open-pull-requests-limit: 0`.
+- CI includes `npm run verify`, npm audit, dependency review, and CodeQL workflows when GitHub Actions quota is available. Dependabot version-update PRs are currently disabled because Actions quota is constrained; dependency updates are handled manually until the config is restored.
 - The static site sets restrictive headers, including `connect-src 'none'`, frame denial, HSTS, and object blocking.
 
 Realistic attacker stories:
